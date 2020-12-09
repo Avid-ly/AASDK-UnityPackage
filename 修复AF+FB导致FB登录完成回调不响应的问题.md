@@ -47,7 +47,10 @@ UIApplicationMain(argc, argv, nil, [NSString stringWithUTF8String: AppController
 
 [AppsFlyerAppController](https://github.com/AppsFlyerSDK/appsflyer-unity-plugin/blob/master/Assets/AppsFlyer/Plugins/iOS/AppsFlyerAppController.mm)类直接将unity项目的根视图`UnityAppController`替换为`AppsFlyerAppController`，导致开发者在`UnityAppController`中编写的代码无法生效
 
-### 解决方案
+
+
+
+### 二、解决方案
 
 下载修改后的`AppsFlyerAppController`文件替换工程里的`AppsFlyerAppController`文件即可
 
